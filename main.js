@@ -178,7 +178,7 @@ function up()
 
 function down()
 {
-	if(player_y <=500)
+	if(player_y <=640)
 	{
 		player_y = player_y + block_image_height;
 		console.log("altura del bloque = " + block_image_height);
